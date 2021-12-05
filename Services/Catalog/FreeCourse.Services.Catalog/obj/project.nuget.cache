@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ch6L84gCaHQLaZmMHuHktyEZekI3hlKm0moezzde0ubzAGKOpgItxi+e0KU6GQeWqEOz5PiDlEipyW+XC8gUbQ==",
+  "dgSpecHash": "QyHA/DM3ORtM4sCC4j84DMRSVsOJamKNRmVDFbFiqWnTJKcGnj5pSSkT4LcIQmAY461oHF1Hy+VkJbIjRoJ/YQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hp\\source\\repos\\MicroServices\\Services\\Catalog\\FreeCourse.Services.Catalog\\FreeCourse.Services.Catalog.csproj",
+  "projectFilePath": "C:\\Users\\hp\\Documents\\MicroServices\\Services\\Catalog\\FreeCourse.Services.Catalog\\FreeCourse.Services.Catalog.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",

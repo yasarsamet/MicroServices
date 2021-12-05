@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = FreeCourse.Services.Catalog
-build_property.ProjectDir = C:\Users\hp\source\repos\MicroServices\Services\Catalog\FreeCourse.Services.Catalog\
+build_property.ProjectDir = C:\Users\hp\Documents\MicroServices\Services\Catalog\FreeCourse.Services.Catalog\

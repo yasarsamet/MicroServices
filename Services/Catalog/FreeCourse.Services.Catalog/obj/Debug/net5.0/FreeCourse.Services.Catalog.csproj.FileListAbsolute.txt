@@ -68,3 +68,7 @@ C:\Users\hp\Documents\MicroServices\Services\Catalog\FreeCourse.Services.Catalog
 C:\Users\hp\Documents\MicroServices\Services\Catalog\FreeCourse.Services.Catalog\obj\Debug\net5.0\ref\FreeCourse.Services.Catalog.dll
 C:\Users\hp\Documents\MicroServices\Services\Catalog\FreeCourse.Services.Catalog\obj\Debug\net5.0\FreeCourse.Services.Catalog.pdb
 C:\Users\hp\Documents\MicroServices\Services\Catalog\FreeCourse.Services.Catalog\obj\Debug\net5.0\FreeCourse.Services.Catalog.genruntimeconfig.cache
+C:\Users\hp\Documents\MicroServices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\hp\Documents\MicroServices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\hp\Documents\MicroServices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net5.0\Shared.dll
+C:\Users\hp\Documents\MicroServices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net5.0\Shared.pdb

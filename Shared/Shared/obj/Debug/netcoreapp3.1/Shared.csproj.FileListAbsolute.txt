@@ -8,3 +8,13 @@ C:\Users\hp\Documents\MicroServices\Shared\Shared\obj\Debug\netcoreapp3.1\Shared
 C:\Users\hp\Documents\MicroServices\Shared\Shared\obj\Debug\netcoreapp3.1\Shared.csproj.CoreCompileInputs.cache
 C:\Users\hp\Documents\MicroServices\Shared\Shared\obj\Debug\netcoreapp3.1\Shared.dll
 C:\Users\hp\Documents\MicroServices\Shared\Shared\obj\Debug\netcoreapp3.1\Shared.pdb
+D:\VisualStudioProjeler\MicroServices\Shared\Shared\bin\Debug\netcoreapp3.1\Shared.deps.json
+D:\VisualStudioProjeler\MicroServices\Shared\Shared\bin\Debug\netcoreapp3.1\Shared.dll
+D:\VisualStudioProjeler\MicroServices\Shared\Shared\bin\Debug\netcoreapp3.1\Shared.pdb
+D:\VisualStudioProjeler\MicroServices\Shared\Shared\obj\Debug\netcoreapp3.1\Shared.csproj.AssemblyReference.cache
+D:\VisualStudioProjeler\MicroServices\Shared\Shared\obj\Debug\netcoreapp3.1\Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudioProjeler\MicroServices\Shared\Shared\obj\Debug\netcoreapp3.1\Shared.AssemblyInfoInputs.cache
+D:\VisualStudioProjeler\MicroServices\Shared\Shared\obj\Debug\netcoreapp3.1\Shared.AssemblyInfo.cs
+D:\VisualStudioProjeler\MicroServices\Shared\Shared\obj\Debug\netcoreapp3.1\Shared.csproj.CoreCompileInputs.cache
+D:\VisualStudioProjeler\MicroServices\Shared\Shared\obj\Debug\netcoreapp3.1\Shared.dll
+D:\VisualStudioProjeler\MicroServices\Shared\Shared\obj\Debug\netcoreapp3.1\Shared.pdb

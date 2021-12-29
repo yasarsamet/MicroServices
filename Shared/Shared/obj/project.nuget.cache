@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FvDWdfF1NPhD46O6YaeBR9A6w/at3pJhh8izYgKcpCMMEWPnYigBKcslkzpSRL9ca5oFIDDYmVoHpcqQH8BqEA==",
+  "dgSpecHash": "HJfMX3yNC5COsdzV+D4XmwcimRzKRrj5OUc5zQqnZ/6ic+UJIUFEPTISVeYY4TCEarQKY7tkGfF2DLpl3JXU6g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hp\\Documents\\MicroServices\\Shared\\Shared\\Shared.csproj",
+  "projectFilePath": "D:\\VisualStudioProjeler\\MicroServices\\Shared\\Shared\\Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

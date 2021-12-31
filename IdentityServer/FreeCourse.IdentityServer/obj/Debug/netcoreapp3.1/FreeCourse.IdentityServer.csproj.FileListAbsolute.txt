@@ -136,3 +136,5 @@ D:\VisualStudioProjeler\MicroServices\IdentityServer\FreeCourse.IdentityServer\b
 D:\VisualStudioProjeler\MicroServices\IdentityServer\FreeCourse.IdentityServer\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\VisualStudioProjeler\MicroServices\IdentityServer\FreeCourse.IdentityServer\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\VisualStudioProjeler\MicroServices\IdentityServer\FreeCourse.IdentityServer\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\VisualStudioProjeler\MicroServices\IdentityServer\FreeCourse.IdentityServer\bin\Debug\netcoreapp3.1\Shared.dll
+D:\VisualStudioProjeler\MicroServices\IdentityServer\FreeCourse.IdentityServer\bin\Debug\netcoreapp3.1\Shared.pdb

@@ -22,22 +22,6 @@ namespace FreeCourse.IdentityServer
     {
         public static int Main(string[] args)
         {
-            //Log.Logger = new LoggerConfiguration()
-            //    .MinimumLevel.Debug()
-            //    .MinimumLevel.Override("Microsoft", LogEventLevel.Warning)
-            //    .MinimumLevel.Override("Microsoft.Hosting.Lifetime", LogEventLevel.Information)
-            //    .MinimumLevel.Override("System", LogEventLevel.Warning)
-            //    .MinimumLevel.Override("Microsoft.AspNetCore.Authentication", LogEventLevel.Information)
-            //    .Enrich.FromLogContext()
-            //    // uncomment to write to Azure diagnostics stream
-            //    //.WriteTo.File(
-            //    //    @"D:\home\LogFiles\Application\identityserver.txt",
-            //    //    fileSizeLimitBytes: 1_000_000,
-            //    //    rollOnFileSizeLimit: true,
-            //    //    shared: true,
-            //    //    flushToDiskInterval: TimeSpan.FromSeconds(1))
-            //    .WriteTo.Console(outputTemplate: "[{Timestamp:HH:mm:ss} {Level}] {SourceContext}{NewLine}{Message:lj}{NewLine}{Exception}{NewLine}", theme: AnsiConsoleTheme.Code)
-            //    .CreateLogger();
             try
             {
                 var host = CreateHostBuilder(args).Build();
@@ -51,7 +35,6 @@ namespace FreeCourse.IdentityServer
                     if (!userManager.Users.Any())
                     {
                         userManager.CreateAsync(new IdentityUser { UserName = "deneme", Email = "deneme@gmail.com" }, "Ysa0037178.").Wait();
-                        // userManager.CreateAsync(new IdentityUser { UserName = "YasarSamet", Email = "samet_1.999@hotmail.com"}, "Ysa0037178.").Wait();
                     }
                 }
                 Log.Information("Starting host...");
@@ -68,7 +51,6 @@ namespace FreeCourse.IdentityServer
                 Log.CloseAndFlush();
             }
         }
-
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .UseSerilog()

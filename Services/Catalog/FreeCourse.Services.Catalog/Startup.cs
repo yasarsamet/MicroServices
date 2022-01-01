@@ -43,7 +43,7 @@ namespace FreeCourse.Services.Catalog
 
             services.AddControllers(opt =>
             {
-                opt.Filters.Add(new AuthorizeFilter());
+                opt.Filters.Add(new AuthorizeFilter()); // tüm controller a authorize att ekledik
             });
             services.Configure<DatabaseSettings>(Configuration.GetSection("DatabaseSEttings"));
             services.AddSingleton<IDatabaseSettings>(sp =>

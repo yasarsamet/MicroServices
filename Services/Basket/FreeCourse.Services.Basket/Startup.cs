@@ -27,13 +27,12 @@ namespace FreeCourse.Services.Basket
         {
             Configuration = configuration;
         }
-
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            var requireAuthorizePolicy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build(); // redisde getuserýd kullanacaðýmýz için authontica olmus USER beklediðimizi yazdýk
+            var requireAuthorizePolicy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build(); // redisde getuserýd kullanacaðýmýz için authontice olmus USER beklediðimizi yazdýk
             JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Remove("sub");
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
             {
@@ -48,7 +47,6 @@ namespace FreeCourse.Services.Basket
             services.AddScoped<IBasketService, BasketService>();
             services.AddSingleton<RedisService>(sp => {
                 var redisSettings = sp.GetRequiredService<IOptions<RedisSettings>>().Value;
-
                 var redis = new RedisService(redisSettings.Port,redisSettings.Host);
                 redis.Connect();
                 return redis;

@@ -25,7 +25,7 @@ namespace FreeCourse.Services.Basket.Services
         }
 
         public async Task<Response<BasketDto>> GetBasket(string userId)
-        {
+        {            
             var existBasket = await _redisService.GetDb().StringGetAsync(userId); // redisde userıd ye ait sepet var mı ?
             if (string.IsNullOrEmpty(existBasket))
             {

@@ -52,10 +52,11 @@ namespace FreeCourse.Services.Basket
                 return redis;
 
             });
-            services.AddControllers(opt => {
+            //services.AddControllers(opt => {
 
-                opt.Filters.Add(new AuthorizeFilter(requireAuthorizePolicy));
-            });
+            //    opt.Filters.Add(new AuthorizeFilter(requireAuthorizePolicy)); // tüm controllera authorize attribute ekliyor
+            //});
+            services.AddControllers();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "FreeCourse.Services.Basket", Version = "v1" });

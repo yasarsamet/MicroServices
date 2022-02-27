@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "US76gfjxHpuPn5dtoimP8XUwodlLRDGE65C9ZItsklV4NPz1dni1K1ssMgMKZzny/eSO6qoc8Tz97gRdluEgNA==",
+  "success": true,
+  "projectFilePath": "D:\\VisualStudioProjeler\\MicroServices\\Services\\Discount\\FreeCourse.Services.Discount\\FreeCourse.Services.Discount.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hp\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
+    "C:\\Users\\Hp\\.nuget\\packages\\dapper.contrib\\2.0.78\\dapper.contrib.2.0.78.nupkg.sha512",
+    "C:\\Users\\Hp\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Hp\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Hp\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\Hp\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\Hp\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\Hp\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}

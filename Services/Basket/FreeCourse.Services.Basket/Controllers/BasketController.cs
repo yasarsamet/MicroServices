@@ -26,10 +26,11 @@ namespace FreeCourse.Services.Basket.Controllers
         }
         [HttpGet]
         [Route("[action]")]
-        public async Task<IActionResult> GetBasket()
+        public async Task<IActionResult> GetBasket(string userId)
         {
-            var claims = User.Claims;
-            return CreateActionResultInstance(await _basketService.GetBasket(_sharedIdentityService.GetUserId));
+
+            //return CreateActionResultInstance(await _basketService.GetBasket(_sharedIdentityService.GetUserId));
+            return CreateActionResultInstance(await _basketService.GetBasket(userId));
         }
         [HttpPost]
         [Route("[action]")]
@@ -38,7 +39,7 @@ namespace FreeCourse.Services.Basket.Controllers
             var response = await _basketService.SaveOrUpdate(basketDto);
             return CreateActionResultInstance(response);
         }
-        [HttpPost]
+        [HttpDelete]
         [Route("[action]")]
         public async Task<IActionResult> DeleteBasket()
         {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Shared.Services
+namespace Shared.Services 
 {
     public interface ISharedIdentityService
     {
